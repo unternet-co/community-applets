@@ -1,0 +1,8 @@
+{
+  "input": {
+    "path": "./src"
+  },
+  "output": {
+    "path": "./dist"
+  }
+}

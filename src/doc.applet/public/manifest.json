@@ -1,0 +1,18 @@
+{
+  "type": "applet",
+  "name": "Doc",
+  "description": "A document",
+  "entrypoint": "index.html",
+  "actions": [
+    {
+      "id": "write",
+      "description": "Write some text to the doc, replacing the current text.",
+      "params": {
+        "text": {
+          "type": "string",
+          "description": "Text to write to the doc"
+        }
+      }
+    }
+  ]
+}
