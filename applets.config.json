@@ -1,6 +1,6 @@
 {
   "input": {
-    "path": "./src"
+    "path": "./applets"
   },
   "output": {
     "path": "./dist"
