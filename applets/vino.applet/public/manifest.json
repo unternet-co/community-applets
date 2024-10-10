@@ -1,0 +1,18 @@
+{
+  "type": "applet",
+  "name": "Vino",
+  "description": "Describes likely characteristics of a wine, given details like name and location of origin",
+  "entrypoint": "index.html",
+  "actions": [
+    {
+      "id": "describe",
+      "description": "Describes characteristics, given a wine",
+      "params": {
+        "wine": {
+          "type": "string",
+          "description": "Any information about the wine, especially name, style and location of origin"
+        }
+      }
+    }
+  ]
+}

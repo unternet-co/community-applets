@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui;
+  background: #c46591;
+  padding: 30px;
+}
+
+input {
+  font-size: 17px;
+  width: 100%;
+  background: #dfa6be;
+  border: 1px solid #aa4e6c;
+  padding: 7px 10px;
+  outline: none;
+  border-radius: 5px;
+  color: #882948;
+  font-weight: 500;
+}
+
+blockquote {
+  border-left: 2px solid #a84b6e;
+  padding-left: 14px;
+  margin-left: 4px;
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+blockquote p {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+#description {
+  color: #ffe1e1;
+}
+
+.hidden {
+  display: none;
+}

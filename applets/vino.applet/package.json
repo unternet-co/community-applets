@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@web-applets/sdk": "^0.0.7",
+    "marked": "^14.1.2",
+    "openai": "^4.67.3"
+  }
+}

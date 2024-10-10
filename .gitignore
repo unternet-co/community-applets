@@ -1,3 +1,11 @@
-node_modules/
-dist/
-**/dist
+# Ignore dist directory in root and subdirectories
+/dist
+**/dist/
+
+# Ignore node_modules directory in root and subdirectories
+/node_modules
+**/node_modules/
+
+# Ignore .env files in root and subdirectories
+/.env
+**/.env
